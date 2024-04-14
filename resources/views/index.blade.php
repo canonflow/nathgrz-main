@@ -128,7 +128,7 @@
 
         {{--    SKILLS    --}}
         <div class="p-3 section">
-            <div class="flex justify-center"><h2 class="text-4xl text-primary" id="skill">Skills</h2></div>
+            <div class="flex justify-center"><h2 class="text-4xl text-primary" id="skill">Skill</h2></div>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 pt-6 skills">
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">HTML5</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">CSS3</div>
@@ -151,13 +151,13 @@
 
         {{--    Projects    --}}
         <div class="bg-base-200 p-3 select-none w-full section">
-            <div class="flex justify-center"><h2 class="text-4xl text-primary" id="project">Projects</h2></div>
+            <div class="flex justify-center"><h2 class="text-4xl text-primary" id="project">Project</h2></div>
             <p class="pt-6 flex justify-center">Currently, you can see all my projects on Github &nbsp; <a href="https://github.com/canonflow" target="_blank"><strong>@canonflow</strong></a></p>
         </div>
 
         {{--    Experiences    --}}
         <div class="p-3 select-none w-full section">
-            <div class="flex justify-center"><h2 class="text-4xl text-primary" id="experience">Experiences</h2></div>
+            <div class="flex justify-center"><h2 class="text-4xl text-primary" id="experience">Experience</h2></div>
             <ul class="timeline timeline-vertical">
                 <li class="h-44">
                     <div class="timeline-start text-md lg:text-lg mr-4">Mar 2024 - Present</div>
@@ -190,7 +190,7 @@
                 </li>
                 <li class="h-44">
                     <hr class="bg-accent" />
-                    <div class="timeline-start text-md lg:text-lg mr-4">Jun 2024 - Aug 2023</div>
+                    <div class="timeline-start text-md lg:text-lg mr-4">Jun 2023 - Aug 2023</div>
                     <div class="timeline-middle badge badge-outline badge-accent badge-md py-4 rounded-full">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
