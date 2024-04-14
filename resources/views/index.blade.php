@@ -288,7 +288,7 @@
 
     <footer>
         <div class="flex flex-col items-center md:flex-row md:justify-between py-6 px-8 bg-warning text-warning-content">
-            <p class="text-center">@ 2024 Nathan Garzya Santoso. All Rights Reserved.</p>
+            <p class="text-center">&copy; 2024 Nathan Garzya Santoso. All Rights Reserved.</p>
             <p class="mt-2 md:mt-0">dev.nathangarzyasantoso@gmail.com</p>
         </div>
     </footer>
