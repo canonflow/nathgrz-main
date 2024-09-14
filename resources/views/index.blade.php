@@ -1,3 +1,28 @@
+@php
+$experiences = [
+    [
+        "timeline" => "Aug 2024 - Sep 2024",
+        "title" => "Full Stack Developer",
+        "company" => "Industrial Games 32"
+    ],
+    [
+        "timeline" => "Mar 2024 - Aug 2024",
+        "title" => "Full Stack Developer",
+        "company" => "MANIAC XIII"
+    ],
+    [
+        "timeline" => "Oct 2023 - Feb 2024",
+        "title" => "Full Stack Developer",
+        "company" => "ILPC 2024"
+    ],
+    [
+        "timeline" => "Jun 2023 - Aug 2023",
+        "title" => "Backend Developer",
+        "company" => "MANIAC XII"
+    ],
+];
+@endphp
+
 <!doctype html>
 <html lang="en" data-theme="nord">
 <head>
@@ -111,7 +136,7 @@
             </div>
             <p class="pt-8 lg:pt-0">
                 <span class="text-2xl inline-block mb-2">Hi,</span> <br />
-                "I'm Nathan Garzya Santoso. A computer science student who has interest on web development with a passion for crafting engaging user experiences. Welcome to my portfolio."
+                "I'm Nathan Garzya Santoso. A computer science student who has interest on web development and machine learning with a passion for crafting engaging user experiences. Welcome to my portfolio."
             </p>
         </div>
 
@@ -133,14 +158,22 @@
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">HTML5</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">CSS3</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Javascript</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Typescript</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Bootstrap</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Tailwind</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">DaisyUI</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">PHP</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Python</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Numpy</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Pandas</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Matplotlib</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Scikit Learn</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">OpenCV</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">C#</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">C++</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Kotlin</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Laravel</div>
+                <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">Git</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">NodeJS</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">ExpressJS</div>
                 <div class="skill bg-info text-info-content py-2 px-6 rounded flex text-center justify-center items-center h-fit">AdonisJS</div>
@@ -159,49 +192,23 @@
         <div class="p-3 select-none w-full section">
             <div class="flex justify-center"><h2 class="text-4xl text-primary" id="experience">Experience</h2></div>
             <ul class="timeline timeline-vertical">
-                <li class="h-44">
-                    <div class="timeline-start text-md lg:text-lg mr-4">Mar 2024 - Present</div>
-                    <div class="timeline-middle badge badge-outline badge-accent badge-md py-4 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
-                        </svg>
-                    </div>
-                    <div class="timeline-end timeline-box text-md lg:text-lg rounded-md ml-4">
-                        <span class="text-secondary">Full Stack Developer</span>
-                        <br />
-                        <span class="inline-block mt-3 md:mt-2 font-light">Maniac XIII</span>
-                    </div>
-                    <hr class="bg-accent" />
-                </li>
-                <li class="h-44">
-                    <hr class="bg-accent" />
-                    <div class="timeline-start text-md lg:text-lg mr-4">Oct 2023 - Feb 2024</div>
-                    <div class="timeline-middle badge badge-outline badge-accent badge-md py-4 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
-                        </svg>
-                    </div>
-                    <div class="timeline-end timeline-box text-md lg:text-lg rounded-md ml-4">
-                        <span class="text-secondary">Full Stack Developer</span>
-                        <br />
-                        <span class="inline-block mt-3 md:mt-2 font-light">ILPC 2024</span>
-                    </div>
-                    <hr class="bg-accent" />
-                </li>
-                <li class="h-44">
-                    <hr class="bg-accent" />
-                    <div class="timeline-start text-md lg:text-lg mr-4">Jun 2023 - Aug 2023</div>
-                    <div class="timeline-middle badge badge-outline badge-accent badge-md py-4 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
-                        </svg>
-                    </div>
-                    <div class="timeline-end timeline-box text-md lg:text-lg rounded-md ml-4">
-                        <span class="text-secondary">Backend Developer</span>
-                        <br />
-                        <span class="inline-block mt-3 md:mt-2 font-light">Maniac XII</span>
-                    </div>
-                </li>
+                @foreach($experiences as $cnt => $experience)
+                    <li class="h-44">
+                        @if($cnt != 0) <hr class="bg-accent" /> @endif
+                        <div class="timeline-start text-md lg:text-lg mr-4">{{ $experience['timeline'] }}</div>
+                        <div class="timeline-middle badge badge-outline badge-accent badge-md py-4 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+                            </svg>
+                        </div>
+                        <div class="timeline-end timeline-box text-md lg:text-lg rounded-md ml-4">
+                            <span class="text-secondary">{{ $experience['title'] }}</span>
+                            <br />
+                            <span class="inline-block mt-3 md:mt-2 font-light">{{ $experience['company'] }}</span>
+                        </div>
+                        @if($cnt < count($experiences) - 1) <hr class="bg-accent" /> @endif
+                    </li>
+                @endforeach
             </ul>
         </div>
 
@@ -307,7 +314,7 @@
     {{--  Typed  --}}
     <script type="module">
         var typed = new Typed('#typing', {
-            strings: ["Computer Science Student", "Full Stack Developer"],
+            strings: ["Computer Science Student", "Full Stack Developer", "Machine Learning"],
             typeSpeed: 50,
             backSpeed: 50,
             loop: true,
